@@ -10,10 +10,10 @@ names.forEach(n=>
 )
 
 
-// for  pushing or upgrading another existed variable
+// here map is better choice but we do it with for each (for  pushing or upgrading another existed variable)
 const h=[]
 
 names.forEach(n=>
-        h.push(n)
+        h.push(n.toUpperCase())
     )
 console.log(h) 
